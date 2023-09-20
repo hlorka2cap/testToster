@@ -53,7 +53,7 @@ const currentImageElement = document.querySelector(
 );
 
 // getting data
-fetch("/assets/data/product.json")
+fetch("assets/data/product.json")
   .then((response) => response.json())
   .then((json) => (data = json))
   .then(() => {

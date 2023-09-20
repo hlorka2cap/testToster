@@ -3,25 +3,25 @@
     {
       "id": 0,
       "color": "black",
-      "image": "/assets/images/product/black.jpg"
+      "image": "assets/images/product/black.jpg"
     },
 
     {
       "id": 1,
       "color": "orange",
-      "image": "/assets/images/product/orange.jpg"
+      "image": "assets/images/product/orange.jpg"
     },
 
     {
       "id": 2,
       "color": "pinc",
-      "image": "/assets/images/product/pink.jpg"
+      "image": "assets/images/product/pink.jpg"
     },
 
     {
       "id": 3,
       "color": "yellow",
-      "image": "/assets/images/product/yellow.jpg"
+      "image": "assets/images/product/yellow.jpg"
     }
   ]
 }

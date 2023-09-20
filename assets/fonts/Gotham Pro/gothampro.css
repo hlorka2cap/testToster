@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: 400;
     src: local('Gotham Pro'),
-        url(assets/fonts/Gotham\ Pro/gothampro.ttf);
+        url('assets/fonts/Gotham Pro/gothampro.ttf');
 }
 
 /* Bold */

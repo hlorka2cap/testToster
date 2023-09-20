@@ -1,0 +1,121 @@
+@import '../fonts/Gotham\ Pro/gothampro.css'
+@import './reset.css'
+
+$orange: #F19D2F
+$peach: #FFD1AC
+$black: #2C2B31
+$blackest: #000
+$white: #FFF
+$green: #37D997
+$lightOrange: #F19D2F
+$bgColor: #F0F0F0
+
+.offer-header
+    background-color: $orange
+
+.offer-header__text
+    color: $black
+    text-transform: uppercase
+    font-size: 0.7934rem
+    padding: 0.625rem 0
+    text-align: center
+
+.offer-logo
+    background-color: $peach
+    padding: 1.1875rem 0
+    text-align: center
+
+.offer-content
+    background-image: url('/assets/images/offer.png')
+    height: 18.1875rem
+    background-position: 50% 60%
+    background-size: 150% 200%
+    background-repeat: no-repeat
+    display: flex
+    align-items: end
+    justify-content: space-between
+    padding: 0.875rem
+
+.offer-content__item
+    border-radius: 0.4438rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    height: 3.625rem
+    padding: 0 0.4375rem
+
+.offer-content__item p
+    font-weight: 700
+    text-transform: uppercase
+    color: $white
+    text-align: center
+
+.offer-timer
+    background-color: $lightOrange
+    gap: 0.634rem
+
+.offer-timer__description
+    font-size: 0.6624rem
+
+.offer-timer__time
+    font-size: 1.3284rem
+
+.offer-price
+    background-color: $green
+    gap: 0.4387rem
+
+.offer-price__old
+    font-size: 1.1298rem
+
+.offer-price__new
+    font-size: 1.3938rem
+
+.products
+    padding: 0.6875rem 1.0625rem 2.5863rem
+    background-color: $bgColor
+
+.products-header
+    display: flex
+    justify-content: space-between
+
+.products-header__rating
+    color: $black
+    font-size: 0.7542rem
+
+.products-header__category
+    color: $green
+    font-size: 0.7542rem
+    text-decoration: underline
+    width: 5.625rem
+    text-align: end
+
+.products-content
+    margin-top: 1.25rem
+
+.products-content__title
+    font-size: 1.198rem
+    font-weight: 700
+    color: $black
+    text-transform: uppercase
+
+.products-content__info
+    font-size: 0.9556rem
+    color: $blackest
+    margin-bottom: 0.75rem
+
+.products-content__info-title
+    font-weight: 700
+    text-transform: capitalize
+
+
+.products-content__rating 
+    display: flex
+    align-items: center
+    gap: 0.625rem
+    
+.products-content__rating-stars
+    height: 0.9375rem
+
+.products-content__rating-count-reviews
+    line-height: 0.9375rem
+    height: 0.9375rem

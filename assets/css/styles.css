@@ -1,5 +1,5 @@
-@import '../fonts/Gotham\ Pro/gothampro.css';
-@import './reset.css';
+@import 'assets/fonts/GothamPro/gothampro.css';
+@import 'assets/css/reset.css';
 .offer-header {
   background-color: #F19D2F;
   padding: 0.625rem 0.875rem;
@@ -23,12 +23,13 @@
 }
 
 .offer-content {
-  background-image: url("/assets/images/offer.png");
+  background-image: url("assets/images/offer.png");
   height: 18.1875rem;
   background-position: 50% 60%;
   background-size: 150% 200%;
   background-repeat: no-repeat;
   display: flex;
+  width: 100%;
   align-items: end;
   justify-content: space-between;
   padding: 0.875rem;

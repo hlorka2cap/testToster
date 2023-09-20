@@ -1,5 +1,5 @@
-@import 'assets/fonts/GothamPro/gothampro.css';
-@import 'assets/css/reset.css';
+@import '..fonts/GothamPro/gothampro.css';
+@import 'reset.css';
 .offer-header {
   background-color: #F19D2F;
   padding: 0.625rem 0.875rem;

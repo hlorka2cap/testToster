@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: 400;
     src: local('Gotham Pro'),
-        url(assets/fonts/GothamPro/gothampro.ttf);
+        url(gothampro.ttf);
 }
 
 @font-face {
@@ -11,5 +11,5 @@
     font-style: normal;
     font-weight: 700;
     src: local('Gotham Pro'),
-        url(assets/fonts/GothamPro/gothampro_bold.ttf);
+        url(gothampro_bold.ttf);
 }

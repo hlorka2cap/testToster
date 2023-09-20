@@ -1,6 +1,5 @@
-/* fixes paths */
-@import '../fonts/GothamPro/gothampro.css';
-@import '../css/reset.css';
+@import 'assets/fonts/GothamPro/gothampro.css';
+@import 'assets/css/reset.css';
 .offer-header {
   background-color: #F19D2F;
   padding: 0.625rem 0.875rem;
@@ -24,7 +23,7 @@
 }
 
 .offer-content {
-  background-image: url("assets/images/offer.png");
+  background-image: url("../images/offer.png");
   height: 18.1875rem;
   background-position: 50% 60%;
   background-size: 150% 200%;

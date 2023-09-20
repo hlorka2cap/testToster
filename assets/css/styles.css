@@ -1,4 +1,4 @@
-@import '..fonts/GothamPro/gothampro.css';
+@import '../fonts/GothamPro/gothampro.css';
 @import 'reset.css';
 .offer-header {
   background-color: #F19D2F;

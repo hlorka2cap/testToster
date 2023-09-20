@@ -35,7 +35,8 @@ button {
 
 /* Set default font */
 p,
-span {
+span,
+a {
     font-family: 'Gotham Pro'; 
     font-weight: 400;
 }

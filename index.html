@@ -13,9 +13,9 @@
     <!-- Offer -->
     <section class="offer">
         <div class="offer-header">
-            <div class="container">
-                <p class="offer-header__text">special offer + free delivery 2-4 days in sa</p>
-            </div>
+            <img class="za-flag" src="/assets/images/za.png" alt="">
+            <p class="offer-header__text"> special offer + free delivery 2-4 days in sa </p>
+            <img class="za-flag" src="/assets/images/za.png" alt="">
         </div>
         <div class="offer-logo">
             <a class="offer-logo__image" href="#">
@@ -27,18 +27,18 @@
                 <p class="offer-timer__description">
                     limited offer
                 </p>
-                <p class="offer-time">
-
+                <p class="offer-time" id="timer">
+                    <span id="hour">00</span>
+                    <span>:</span>
+                    <span id="min">00</span>
+                    <span>:</span>
+                    <span id="sec">00</span>
                 </p>
             </div>
 
             <div class="offer-price offer-content__item">
-                <p class="offer-price__old">
-                    r 250.00
-                </p>
-                <p class="offer-price__new">
-                    r 160.00
-                </p>
+                <p class="offer-price__old" id="oldPrice"></p>
+                <p class="offer-price__new" id="newPrice"></p>
             </div>
         </div>
     </section>
@@ -76,6 +76,7 @@
                     fast delivery:
                 </span>
                 2-4 days from SA
+                <img class="za-flag" src="/assets/images/za.png" alt="">
             </p>
 
             <p class="products-content__info">
@@ -83,14 +84,11 @@
                     in stock:
                 </span>
                 Shipping from Johannesburg
+                <img class="za-flag" src="/assets/images/za.png" alt="">
             </p>
 
             <div class="products-content__rating">
-                <img 
-                    class="products-content__rating-stars" 
-                    src="/assets/images/ratingStars.png" 
-                    alt="Rating stars"
-                >
+                <img class="products-content__rating-stars" src="/assets/images/ratingStars.png" alt="Rating stars">
                 <p class="products-content__rating-count-reviews">
                     (10)
                 </p>
@@ -102,27 +100,54 @@
                         <p class="order-options__option-title">
                             color
                         </p>
-                        <select name="color" id="color" class="options-list">
-
-                        </select>
+                        <div class="options-select__wrapper">
+                            <select name="color" id="color" class="options-select">
+                                <option value="black">black</option>
+                                <option value="orange">orange</option>
+                                <option value="pink">pink</option>
+                                <option value="yellow">yellow</option>
+                            </select>
+                            <div class="options-select__arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="10" viewBox="0 0 19 10"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.324797 2.57518C0.710634 1.84209 1.6177 1.56059 2.35079 1.94642L9.5 5.70916L16.6492 1.94642C17.3823 1.56059 18.2894 1.84209 18.6752 2.57518C19.061 3.30827 18.7795 4.21534 18.0464 4.60118L10.1986 8.73161C9.76131 8.96178 9.23869 8.96178 8.80138 8.73161L0.953554 4.60118C0.220464 4.21534 -0.0610404 3.30827 0.324797 2.57518Z"
+                                        fill="#2C2B31" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                     <div class="order-options__option">
                         <p class="order-options__option-title">
                             size
                         </p>
-                        <select name="color" id="color" class="options-list">
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                        </select>
+                        <div class="options-select__wrapper">
+                            <select name="color" id="color" class="options-select">
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <div class="options-select__arrow">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="19" height="10" viewBox="0 0 19 10"
+                                    fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.324797 2.57518C0.710634 1.84209 1.6177 1.56059 2.35079 1.94642L9.5 5.70916L16.6492 1.94642C17.3823 1.56059 18.2894 1.84209 18.6752 2.57518C19.061 3.30827 18.7795 4.21534 18.0464 4.60118L10.1986 8.73161C9.76131 8.96178 9.23869 8.96178 8.80138 8.73161L0.953554 4.60118C0.220464 4.21534 -0.0610404 3.30827 0.324797 2.57518Z"
+                                        fill="#2C2B31" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
-                    <a href="https://youtube.com">buy now</a>
                 </div>
+                <a class="button-buy" href="https://youtube.com">buy now</a>
             </div>
         </div>
     </section>
     <!-- ./products -->
+
+    <!-- Scripts -->
+    <!-- <script src="/assets/data/product.json"></script> -->
+    <script src="/assets/js/script.js"></script>
 </body>
 
 </html>
